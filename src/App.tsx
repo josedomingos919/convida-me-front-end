@@ -1,12 +1,11 @@
-import { Button } from "reactstrap";
-import { Select } from "./components/Select";
+import { MainContainer } from "./components/MainContainer";
+import { AppRautes } from "./routes/app.routes";
 
 function App() {
   return (
-    <div>
-      <Button color="danger">Danger!</Button>
-      <Select />
-    </div>
+    <MainContainer>
+      <AppRautes />
+    </MainContainer>
   );
 }
 
