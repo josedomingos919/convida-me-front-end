@@ -1,6 +1,6 @@
 import { Header } from "../../components/Header";
 import { useDashboard } from "./state";
-import { Container } from "./styles";
+import { Body, Container, FormContent, LeftMenuContainer } from "./styles";
 
 export const Dashboard = () => {
   const { num } = useDashboard();
@@ -8,6 +8,10 @@ export const Dashboard = () => {
   return (
     <Container>
       <Header userName="José Ndonge" />
+      <Body>
+        <LeftMenuContainer>Menu</LeftMenuContainer>
+        <FormContent>Form</FormContent>
+      </Body>
     </Container>
   );
 };
