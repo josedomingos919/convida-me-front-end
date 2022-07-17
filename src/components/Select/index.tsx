@@ -1,6 +1,6 @@
-import Select from "react-select";
+import ReactSelect from "react-select";
 import { defaultOptions } from "./util";
 
-export const MyComponent = ({ options = defaultOptions }) => (
-  <Select options={options} />
+export const Select = ({ options = defaultOptions }) => (
+  <ReactSelect options={options} />
 );
